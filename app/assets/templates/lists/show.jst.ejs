@@ -1,0 +1,14 @@
+<a href="#"><%= list.escape("title") %></a>
+<button class="delete-list" data-id="<%= list.escape("id") %>">X</button>
+
+<ul class="list-card" list_id=<%= list.escape("id")%>>
+</ul>
+
+
+<form class="create-card">
+	<input type="text" name="card[title]" id="create" placeholder="Add a new card!"></input>
+	<button id="create-card">Add!</button>
+</form>
+
+
+
